@@ -1,0 +1,8 @@
+# pixi/magic environments
+.pixi
+.magic
+
+# There should be one .ipynb per folder. Everything else is scratch files.
+ch*/*
+!*.ipynb
+.ipynb_checkpoints

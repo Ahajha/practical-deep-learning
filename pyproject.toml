@@ -1,0 +1,21 @@
+[project]
+authors = [{name = "Alex Trotta", email = "ahajha@gmail.com"}]
+dependencies = []
+description = "Solutions for 'Practical Deep Learning for Coders'"
+name = "deep-learning"
+requires-python = ">= 3.11,<3.13"
+version = "0.1.0"
+
+[tool.pixi.project]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64"]
+
+[tool.pixi.pypi-dependencies]
+jupyter = "*"
+duckduckgo-search = "*"
+fastcore = "*"
+fastdownload = "*"
+fastai = "*"
+
+[tool.pixi.tasks]
+ch1 = "jupyter notebook ch1/is-it-a-bird-creating-a-model-from-your-own-data.ipynb"
